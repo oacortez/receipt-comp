@@ -2,5 +2,18 @@
   font-family: 'Roboto', sans-serif;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
   lighter blue: #74b9ff
-  darker blue: #0984e3
-*/
+  darker blue: #0984e3 */
+
+body {
+  background-color: #74b9ff;
+}
+
+.card-container {
+  height: 700px;
+  width: 69%;
+  margin: 6% auto;
+  position: relative;
+  /* border-radius: 25px; */
+  box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 20%);
+  background-color: white;
+}
