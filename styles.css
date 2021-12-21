@@ -6,6 +6,7 @@
 
 body {
   background-color: #74b9ff;
+  font-weight: 200;
 }
 
 .card-container {
@@ -13,7 +14,32 @@ body {
   width: 69%;
   margin: 6% auto;
   position: relative;
-  /* border-radius: 25px; */
   box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 20%);
-  background-color: white;
+  background-color: white; 
+}
+
+p {
+  margin: 1px;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: black dashed 1px;
+}
+
+.top-details {
+  padding-left: 10px;
+  font-size: 150%;
+  margin: 25px;
+}
+
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #0D84E3;
+  font-size: 160%;
+  margin-right: 25px;
 }
